@@ -1,0 +1,11 @@
+version: 0.2
+
+phases:
+  install:
+    # https://docs.aws.amazon.com/ja_jp/codebuild/latest/userguide/runtime-versions.html
+    runtime-versions:
+      ruby: 2.7
+
+  build:
+    commands:
+      echo "Hi!"
